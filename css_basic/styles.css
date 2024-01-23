@@ -1,0 +1,62 @@
+    body {
+      display: flex;
+      margin: 0;
+      height: 500px;
+      flex-direction: column;
+    }
+    main {
+      display: flex;
+      color: navy;
+      text-decoration:forestgreen dotted underline;
+      margin-left: 40px;
+    }
+    img {
+      width: 200px;
+    }
+    header {
+      margin-left: 0 !important;
+      background-color:lavender;
+      height: 40px;
+    }
+    a:hover {
+      display: inline-block;
+      color: #F80002;
+      text-decoration: underline;
+      transform: scale(1.1);
+      transition: color .2s ease;
+      transition: transform .4s ease;
+    }
+    header ul {
+      float: right;
+    }
+    header a {
+      color: slateblue;
+      font-size: 1.6rem;
+    }
+    header li {
+      margin-right: 60px !important;
+    }
+    .logo {
+      font-size: 36px;
+      display: inline;
+    }
+    footer {
+      background-color: lavender;
+      width: 100%;
+      padding: 0;
+      font-size: 1.4rem;
+      text-align: center;
+      padding: 60px 0;
+      transition: all 1s ease;
+    }
+    footer:hover {
+      background-color: cyan;
+    }
+    article {
+      flex: 2;
+      overflow-y: auto;
+    }
+    aside {
+      flex: 1;
+      overflow-y: auto;
+    }
